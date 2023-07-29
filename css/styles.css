@@ -1,0 +1,41 @@
+
+
+:root {
+    --dark-blue: #11131F
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+/* Было сначала  
+.footer{
+    background-color: rgb(89, 248, 142);
+} */
+
+footer {
+background-color: var(--dark-blue);
+}
+
+@media screen and (max-width:768px) {
+    .container_footer {
+            width: 335px;
+            height: 334px;
+        }
+    .
+}
+
+.text_main_footer {
+color: #F6F5EF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 118%;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
